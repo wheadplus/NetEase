@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font: px2rem(16)/1.5 Helvetica,sans-serif;
+    color: #333;
+}
+ui,li {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+.no-collapse::before,.no-collapse::after {
+    content: "";
+    display: table;
+}
