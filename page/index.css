@@ -3,6 +3,13 @@ body {
 }
 
 /* index中commoncss */
+
+.loading {
+    text-align: center;
+}
+.loading.disable {
+    display: none;
+}
 /* topLists */
 .topLists{
     padding-left: .5625rem;
@@ -123,7 +130,12 @@ header.sticky {
 }
 /* header css end */
 /* tabContainer 主要内容css */
-
+.tabContainer > li {
+    display: none;
+}
+.tabContainer > li.active {
+    display: block;
+}
 .searchPanel,.hotPanel {
     display: none;
 }
@@ -213,6 +225,7 @@ header.sticky {
 .hotPanel .topLists {
     padding-left: 2.4rem;
 }
+
 .hotPanel .topLists .num {
     position: absolute;
     top: 50%;

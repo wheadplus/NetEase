@@ -135,7 +135,7 @@ section.lyric > .lyric-wrap {
     overflow: hidden;
 }
 section.lyric .lyric-text {
-    transform: translateY(-10px)
+    transition: transform .3s;
 }
 section.lyric li {
     color:rgb(143, 153, 161);
