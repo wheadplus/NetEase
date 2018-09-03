@@ -211,7 +211,7 @@ header.sticky {
     width: 8.875rem;
     height: 4.1875rem;
     display: inline-block;
-    background: url(../../modules/imgs/elves.png) no-repeat;
+    background: url(../modules/imgs/elves.png) no-repeat;
     background-size: 10.375rem 6.0625rem;
     background-position: -1.5rem -1.875rem;
 }
