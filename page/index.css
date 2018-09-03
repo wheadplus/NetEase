@@ -167,7 +167,7 @@ header.sticky {
 /* art广告部分 */
 .art {
     
-    background: url(../../modules/imgs/bg.png) no-repeat;
+    background: url(../modules/imgs/bg.png) no-repeat;
     background-size: cover;
     text-align: center;
     padding-bottom: 1.875rem;
@@ -203,7 +203,7 @@ header.sticky {
 /* section 2 hotPanel 热隔榜 */
 .hotop {
     
-    background: url(../../modules/imgs/hotbg.jpg) no-repeat;
+    background: url(../modules/imgs/hotbg.jpg) no-repeat;
     background-size: cover;
     padding: 1rem;
 }
