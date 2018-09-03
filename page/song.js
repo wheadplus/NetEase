@@ -40,10 +40,10 @@ function initPlayer(url) {
         let munites = ~~(second / 60)
         let left = second - munites * 60 
         let time = `${pad(munites)}:${pad(left)}`
-        console.log(time)
+        //console.log(time)
         let $whichLine
         $lines = $('.lyric-text li')
-        console.log('xxxx',$lines.length)
+        //console.log('xxxx',$lines.length)
         
         for(let i=0; i<$lines.length;i++) {
             let currentLineTime = $lines.eq(i).attr('data-time')
@@ -54,14 +54,15 @@ function initPlayer(url) {
                 break
             }
         }
-        console.log(333,$whichLine)
+        //console.log(333,$whichLine)
         if($whichLine) {
             $whichLine.addClass('active').prev().removeClass('active')
-            console.log($whichLine.offset().top)
+            //console.log($whichLine.offset().top)
             let top = $whichLine.offset().top
             let linesTop = $lyric.offset().top
-            let delta = top - linesTop 
-            console.log("height",delta)
+            //console.log($('.lyric-wrap').height()/3)
+            let delta = top - linesTop - $('.lyric-wrap').height()/3
+           
             $lyric.css('transform', `translateY(-${delta}px)`)
         }
 
@@ -95,7 +96,6 @@ function parseLyric(lyric) {
 
 $circle.on("click", ()=>{
     $circle.toggleClass("pause")
-    console.log()
     $circle.hasClass('pause') ? audio.pause() : audio.play()
     
        

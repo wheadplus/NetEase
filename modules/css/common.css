@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 html{
-    font: px2rem(16)/1.5 Helvetica,sans-serif;
+    font: Helvetica,sans-serif;
     color: #333;
 }
 ui,li {

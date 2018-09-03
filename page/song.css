@@ -41,7 +41,7 @@ section.pionter .needle {
     height: 7.8125rem;
     position: absolute;
     top: 0;
-    left: 10.3125rem;
+    left: 45vw;
     z-index: 1;
 
 }
@@ -128,10 +128,8 @@ section.lyric > p{
     line-height: 1.1;
 }
 section.lyric > .lyric-wrap {
-    margin-top: .625rem;
-    padding: 1rem;
-    height: 7rem;
-    border: 1px solid red;
+    margin-top: 1rem;
+    height: 6rem;
     overflow: hidden;
 }
 section.lyric .lyric-text {
