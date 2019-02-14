@@ -97,7 +97,4 @@ function parseLyric(lyric) {
 $circle.on("click", ()=>{
     $circle.toggleClass("pause")
     $circle.hasClass('pause') ? audio.pause() : audio.play()
-    
-       
-    
 })

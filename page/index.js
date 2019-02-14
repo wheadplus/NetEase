@@ -65,7 +65,7 @@ const Index = {
                                 <li>      
                                     <a class="iconfont" href="./song.html?id=${1}">
                                         <h4>${i}</h4>
-                                        <p>作者-歌曲</p>
+                                        <p>monkey-${i}</p>
                                         <svg class="icon" aria-hidden="true">
                                             <use xlink:href="#icon-playCircled"></use>
                                         </svg>
@@ -94,7 +94,7 @@ const Index = {
                                 
                                 <a class="iconfont" href="./song.html?id=${i.id}">
                                     <h4>${i.name}</h4>
-                                    <p>作者-歌曲</p>
+                                    <p>${i.author}</p>
                                     <svg class="icon" aria-hidden="true">
                                         <use xlink:href="#icon-playCircled"></use>
                                     </svg>
